@@ -1,0 +1,143 @@
+body
+{  
+    height: max-content;
+    background:fixed;
+    background-color:rgb(170, 55, 185);
+}
+.main
+{
+    margin-top: 100px;
+}
+.top
+{
+    height: 50px;
+    background-color: black;
+}
+.bottom
+{
+    height: 50px;
+    margin-top: 450px;
+    position: fixed;
+    background-color: black;
+}
+.logo
+{
+    border-radius: 100px;
+}
+.main
+{
+    height: 20px;
+}
+.input
+{
+    height: 20px;
+    width: 300px;
+}
+.input:hover
+{
+   border-color: blue;
+}
+button
+{
+    font-size: 17.5px;
+    font-family:monospace;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: blue;
+}
+button:hover
+{
+    color: white;
+    background-color: rgb(88, 142, 158);
+}
+.list
+{
+   margin-top: 200px;
+   margin-left: 510px;
+   height: 250px;
+   width: 380px;
+   background-color: thistle;
+   text-align: center;
+}
+.item
+{
+    padding: 10px;
+}
+.isLiOpen
+{
+    
+    color: rgb(9, 10, 10);
+    background-color: rgb(16, 89, 148);
+   text-decoration: line-through; 
+   border-radius: 7px;
+}
+.delIcon:hover
+{
+    color: red;
+   
+}
+.items
+{
+    color: whitesmoke;
+    border-radius: 7px;
+    margin-top: 1px;
+    box-shadow: rgba(81, 196, 100, 0.5) 3px 2px 0px;
+    background-color: royalblue;
+    text-size-adjust: 100px;
+}
+.text
+{
+    font-size: 100px;
+}
+.nav
+{
+    color: white;
+    align-items:flex-start;
+}
+.home, .feed
+{
+    color: white;
+    padding: 10px;
+}
+.home{
+    background-color: rgba(10, 15, 11, 0.5);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.feed{
+    background-color: rgba(10, 15, 11, 0.5);
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav{
+    display: inline-block; 
+    justify-Content: center; 
+    
+    margin-top: 20px;
+}
+.fav:hover
+{
+    color: red;
+}
+.share:hover
+{
+    color: rgb(22, 245, 22);
+}
+.card
+{
+    
+    border: thin #940094;
+    
+}
+.photo
+{
+    border: 2px outset rgb(0, 10, 10);
+}
+.isLiOpen
+{
+    color:#ff0000;
+    background-color: transparent;
+    border-radius: 0px;
+}
+
